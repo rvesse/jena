@@ -58,14 +58,14 @@
     <project.build.outputTimestamp>2024-03-16T16:17:59Z</project.build.outputTimestamp>
 
     <!-- Logging -->
-    <ver.slf4j>2.0.7</ver.slf4j>
+    <ver.slf4j>2.0.13</ver.slf4j>
     <ver.log4j2>2.23.1</ver.log4j2>
 
     <!-- JSON-LD 1.1 -->
     <ver.titanium-json-ld>1.4.0</ver.titanium-json-ld>
     <ver.jakarta.json>2.0.1</ver.jakarta.json>
 
-    <ver.jetty>12.0.8</ver.jetty>
+    <ver.jetty>12.0.9</ver.jetty>
     <ver.shiro>2.0.0</ver.shiro>
 
     <ver.protobuf>4.26.1</ver.protobuf>
@@ -119,7 +119,7 @@
     <ver.plugin.surefire>3.2.5</ver.plugin.surefire>
     <ver.plugin.javadoc>3.6.3</ver.plugin.javadoc>
     <ver.plugin.war>3.4.0</ver.plugin.war>
-    <ver.plugin.shade>3.5.2</ver.plugin.shade>
+    <ver.plugin.shade>3.5.3</ver.plugin.shade>
     <ver.plugin.enforcer>3.4.1</ver.plugin.enforcer>
     <ver.plugin.cyclonedx>2.8.0</ver.plugin.cyclonedx>
     <ver.plugin.spdx>0.7.0</ver.plugin.spdx>
