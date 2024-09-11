@@ -329,14 +329,14 @@
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
 "@cypress/code-coverage@^3.12.4":
-  version "3.12.42"
-  resolved "https://registry.yarnpkg.com/@cypress/code-coverage/-/code-coverage-3.12.42.tgz#f04bd6fab6bf5f9fcd7f9e145f94e660847de253"
-  integrity sha512-0CyRj2Qqhvc2ZTvteUaXtQCDpyw/lIFEyUhs1D3Ttwd2ZGC4WYJytFLpf/aU6M3ggm2fAiMpBr4iGk4zi/nuDQ==
+  version "3.12.48"
+  resolved "https://registry.yarnpkg.com/@cypress/code-coverage/-/code-coverage-3.12.48.tgz#f962a14deb7a9357d5bae78c470bd637ed812e4e"
+  integrity sha512-Vr9CzmcI+Cx+a1x2lZW9S/pQiHkVoCWwKj2l3sPB4EcEztBDIpXCEMdAiYqrmAfpGwot3scJwW2y1HYxUec0fg==
   dependencies:
     "@cypress/webpack-preprocessor" "^6.0.0"
     chalk "4.1.2"
-    dayjs "1.11.10"
-    debug "4.3.4"
+    dayjs "1.11.13"
+    debug "4.3.7"
     execa "4.1.0"
     globby "11.1.0"
     istanbul-lib-coverage "^3.0.0"
@@ -833,7 +833,7 @@
   dependencies:
     type-detect "4.0.8"
 
-"@sinonjs/fake-timers@^11.2.2":
+"@sinonjs/fake-timers@11.2.2", "@sinonjs/fake-timers@^11.2.2":
   version "11.2.2"
   resolved "https://registry.yarnpkg.com/@sinonjs/fake-timers/-/fake-timers-11.2.2.tgz#50063cc3574f4a27bd8453180a04171c85cc9699"
   integrity sha512-G2piCSxQ7oWOxwGSAyFHfPIsyeJGXYtc6mFbnFA+kRXkiEnTl8c/8jul2S329iFBnDI9HGoeWWAZvuvOkZccgw==
@@ -888,12 +888,12 @@
   dependencies:
     undici-types "~5.26.4"
 
-"@types/node@^20.10.3":
-  version "20.11.17"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.11.17.tgz#cdd642d0e62ef3a861f88ddbc2b61e32578a9292"
-  integrity sha512-QmgQZGWu1Yw9TDyAP9ZzpFJKynYNeOvwMJmaxABfieQoVoiVOS6MN1WSpqpRcbeA5+RW82kraAVxCCJg+780Qw==
+"@types/node@^22.5.4":
+  version "22.5.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.5.4.tgz#83f7d1f65bc2ed223bdbf57c7884f1d5a4fa84e8"
+  integrity sha512-FDuKUJQm/ju9fT/SeX/6+gBzoPzlVCzfzmGkwKvRHQVxi4BntVbyIwf6a4Xn62mrvndLiml6z/UBXIdEVjQLXg==
   dependencies:
-    undici-types "~5.26.4"
+    undici-types "~6.19.2"
 
 "@types/sinonjs__fake-timers@8.1.1":
   version "8.1.1"
@@ -1036,10 +1036,10 @@
     "@vue/compiler-dom" "3.4.31"
     "@vue/shared" "3.4.31"
 
-"@vue/devtools-api@^6.5.1":
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.6.1.tgz#7c14346383751d9f6ad4bea0963245b30220ef83"
-  integrity sha512-LgPscpE3Vs0x96PzSSB4IGVSZXZBZHpfxs+ZA1d+VEPwHdOXowy/Y2CsvCAIFrf+ssVU1pD1jidj505EpUnfbA==
+"@vue/devtools-api@^6.6.4":
+  version "6.6.4"
+  resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.6.4.tgz#cbe97fe0162b365edc1dba80e173f90492535343"
+  integrity sha512-sGhTPMuXqZ1rVOk32RylztWkfXTRhuS7vgAKv0zjqk8gbsHkJ7xfFf+jbySxt7tWObEJwyKaHMikV/WGDiQm8g==
 
 "@vue/eslint-config-standard@^8.0.1":
   version "8.0.1"
@@ -1099,37 +1099,37 @@
     js-beautify "^1.14.9"
     vue-component-type-helpers "^2.0.0"
 
-"@zazuko/yasgui-utils@^4.3.2":
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/@zazuko/yasgui-utils/-/yasgui-utils-4.3.2.tgz#ad555e6bb41c94ab7bcc05702f723af890fa6a7c"
-  integrity sha512-w1SzePqzj/hLVNlnMrrPCTEmysqaUeyMScbJnG7GB9rfSmhSlwh34lpEui1D6nxe7we956q8PHYXBlqzzn8NqQ==
+"@zazuko/yasgui-utils@^4.3.3":
+  version "4.3.3"
+  resolved "https://registry.yarnpkg.com/@zazuko/yasgui-utils/-/yasgui-utils-4.3.3.tgz#783ca5d273ad6d569cd1a3f6c21a88e172d9b409"
+  integrity sha512-8sun0jnCdN9vwBKnKRSvGntJh0pIJHmlsNYlWKBIKE7eskL9iOxNG3duLB9mYgMxuY8ULHsGRPieB+17lB0jag==
   dependencies:
-    "@types/node" "^20.10.3"
+    "@types/node" "^22.5.4"
     dompurify "^2.0.7"
     store "^2.0.12"
 
-"@zazuko/yasqe@^4.2.34", "@zazuko/yasqe@^4.3.2":
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/@zazuko/yasqe/-/yasqe-4.3.2.tgz#e56126e3e416e8851e0e733a00fc34fc7dfef04b"
-  integrity sha512-t5Qnk2tTeDA/vpcRYA6JHb5/WRhEsOmOuRzxyFZtJlRLGJUhG3fMJfH8GXMLIOCfEj4tUwVKPGSSFQSD3IpMZQ==
+"@zazuko/yasqe@^4.2.34", "@zazuko/yasqe@^4.3.3":
+  version "4.3.3"
+  resolved "https://registry.yarnpkg.com/@zazuko/yasqe/-/yasqe-4.3.3.tgz#c1d74a9018868182126d0597467c376d2931c0c8"
+  integrity sha512-xb0rZD8qXz0XhnpBkID0wfUPB83T2l3u6nbB1R49mxiDETz1ySSsp7QvS91Pc33TP09ZM27DjrVBixwvgaI/sw==
   dependencies:
     "@types/lodash-es" "^4.17.3"
-    "@zazuko/yasgui-utils" "^4.3.2"
+    "@zazuko/yasgui-utils" "^4.3.3"
     codemirror "^5.51.0"
     lodash-es "^4.17.15"
     query-string "^6.10.1"
     superagent "^8.1.2"
 
 "@zazuko/yasr@^4.2.34":
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/@zazuko/yasr/-/yasr-4.3.2.tgz#58852a71c21529cf5c828148a17751803a763ce6"
-  integrity sha512-D+H6CZMIFyJ8KBJVAp3z3F8D5EB+1/9K1T5+OKXlu3ps3gkW59RM+5lT4uzXYKID1LwHjolQC3+zISEJG/SIYQ==
+  version "4.3.3"
+  resolved "https://registry.yarnpkg.com/@zazuko/yasr/-/yasr-4.3.3.tgz#a6b3d776db6c84b9d2c2a4f4bda5d30e6fe01d4c"
+  integrity sha512-lRjqBulRPY/ukgTvED5sVr0W8agLus9SJ92nPGxl1Fqc6ew/FGxozuOAtnFpTlijTxjAQEYBgGkpOPYFHuBG6w==
   dependencies:
     "@fortawesome/free-solid-svg-icons" "^5.14.0"
     "@json2csv/plainjs" "^7.0.4"
     "@types/lodash-es" "^4.17.3"
-    "@zazuko/yasgui-utils" "^4.3.2"
-    "@zazuko/yasqe" "^4.3.2"
+    "@zazuko/yasgui-utils" "^4.3.3"
+    "@zazuko/yasqe" "^4.3.3"
     codemirror "^5.51.0"
     colors "^1.4.0"
     column-resizer "^1.4.0"
@@ -1425,9 +1425,9 @@ aws4@^1.8.0:
   integrity sha512-NmWvPnx0F1SfrQbYwOi7OeaNGokp9XhzNioJ/CSBs8Qa4vxug81mhJEAVZwxXuBmYB5KDRfMq/F3RR0BIU7sWg==
 
 axios@^1.6.1:
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.7.2.tgz#b625db8a7051fbea61c35a3cbb3a1daa7b9c7621"
-  integrity sha512-2A8QhOMrbomlDuiLeK9XibIBzuHeRcqqNOHp0Cyp5EoJ1IFDh+XZH3A6BkXtv0K4gFGCI0Y4BM7B1wOEi0Rmgw==
+  version "1.7.7"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.7.7.tgz#2f554296f9892a72ac8d8e4c5b79c14a91d0a47f"
+  integrity sha512-S4kL7XrjgBmvdGut0sN3yJxqYzrDOnivkBiN0OFs6hLiUam3UPvswUo0kqGyhqUZGEOytHyumEdXsAkgCOUf3Q==
   dependencies:
     follow-redirects "^1.15.6"
     form-data "^4.0.0"
@@ -2065,17 +2065,17 @@ date-fns@^2.30.0:
   dependencies:
     "@babel/runtime" "^7.21.0"
 
-dayjs@1.11.10, dayjs@^1.10.4:
-  version "1.11.10"
-  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.10.tgz#68acea85317a6e164457d6d6947564029a6a16a0"
-  integrity sha512-vjAczensTgRcqDERK0SR2XMwsF/tSvnvlv6VcF2GIhg6Sx4yOIt/irsr1RDJsKiIyBzJDpCoXiWWq28MqH2cnQ==
+dayjs@1.11.13, dayjs@^1.10.4:
+  version "1.11.13"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.13.tgz#92430b0139055c3ebb60150aa13e860a4b5a366c"
+  integrity sha512-oaMBel6gjolK862uaPQOVTA7q3TZhuSvuMQAAglQDOWYO9A91IrAOUJEyKVlqJlHE0vq5p5UXxzdPfMH/x6xNg==
 
-debug@*, debug@4, debug@4.3.4, debug@^4, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4:
-  version "4.3.4"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
-  integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
+debug@*, debug@4, debug@4.3.7, debug@^4, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4:
+  version "4.3.7"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.7.tgz#87945b4151a011d76d95a198d7111c865c360a52"
+  integrity sha512-Er2nc/H7RrMXZBFCEim6TCmMk02Z8vLC2Rbi1KEBggpo0fS6l0S1nnapwmIi3yW/+GOJap1Krg4w0Hg80oCqgQ==
   dependencies:
-    ms "2.1.2"
+    ms "^2.1.3"
 
 debug@2.6.9:
   version "2.6.9"
@@ -2951,9 +2951,9 @@ flatted@^3.2.9:
   integrity sha512-36yxDn5H7OFZQla0/jFJmbIKTdZAQHngCedGxiMmpNfEZM0sdEeT+WczLQrjK6D7o2aiyLYDnkw0R3JK0Qv1RQ==
 
 follow-redirects@^1.15.4, follow-redirects@^1.15.6:
-  version "1.15.6"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.6.tgz#7f815c0cda4249c74ff09e95ef97c23b5fd0399b"
-  integrity sha512-wWN62YITEaOpSK584EZXJafH1AGpO8RVgElfkuXbTOrPX4fIfOyEpW/CsiNd8JdYrAoOvafRTOEnvsO++qCqFA==
+  version "1.15.9"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.9.tgz#a604fa10e443bf98ca94228d9eebcc2e8a2c8ee1"
+  integrity sha512-gew4GsXizNgdoRyqmyfMHyAmXsZDk6mHkSxZFCzW9gwlbtOW44CDtYavM+y+72qD/Vq2l550kMF52DT8fOLJqQ==
 
 for-each@^0.3.3:
   version "0.3.3"
@@ -4252,12 +4252,7 @@ ms@2.0.0:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
   integrity sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A==
 
-ms@2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
-  integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
-
-ms@2.1.3, ms@^2.1.1:
+ms@2.1.3, ms@^2.1.1, ms@^2.1.3:
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
@@ -5236,12 +5231,12 @@ simple-update-notifier@^2.0.0:
     semver "^7.5.3"
 
 sinon@^18.0.0:
-  version "18.0.0"
-  resolved "https://registry.yarnpkg.com/sinon/-/sinon-18.0.0.tgz#69ca293dbc3e82590a8b0d46c97f63ebc1e5fc01"
-  integrity sha512-+dXDXzD1sBO6HlmZDd7mXZCR/y5ECiEiGCBSGuFD/kZ0bDTofPYc6JaeGmPSF+1j1MejGUWkORbYOLDyvqCWpA==
+  version "18.0.1"
+  resolved "https://registry.yarnpkg.com/sinon/-/sinon-18.0.1.tgz#464334cdfea2cddc5eda9a4ea7e2e3f0c7a91c5e"
+  integrity sha512-a2N2TDY1uGviajJ6r4D1CyRAkzE9NNVlYOV1wX5xQDuAk0ONgzgRl0EjCQuRCPxOwp13ghsMwt9Gdldujs39qw==
   dependencies:
     "@sinonjs/commons" "^3.0.1"
-    "@sinonjs/fake-timers" "^11.2.2"
+    "@sinonjs/fake-timers" "11.2.2"
     "@sinonjs/samsam" "^8.0.0"
     diff "^5.2.0"
     nise "^6.0.0"
@@ -5753,6 +5748,11 @@ undici-types@~5.26.4:
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-5.26.5.tgz#bcd539893d00b56e964fd2657a4866b221a65617"
   integrity sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==
 
+undici-types@~6.19.2:
+  version "6.19.8"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.19.8.tgz#35111c9d1437ab83a7cdc0abae2f26d88eda0a02"
+  integrity sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==
+
 universalify@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-0.2.0.tgz#6451760566fa857534745ab1dde952d1b1761be0"
@@ -5904,16 +5904,16 @@ vue-eslint-parser@^9.4.3:
     semver "^7.3.6"
 
 vue-router@^4.2.5:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.4.0.tgz#128e3fc0c84421035a9bd26027245e6bd68f69ab"
-  integrity sha512-HB+t2p611aIZraV2aPSRNXf0Z/oLZFrlygJm+sZbdJaW6lcFqEDQwnzUBXn+DApw+/QzDU/I9TeWx9izEjTmsA==
+  version "4.4.4"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.4.4.tgz#4678d309c19c7513a05ef920ad14bdcd4db34fef"
+  integrity sha512-3MlnDqwRwZwCQVbtVfpsU+nrNymNjnXSsQtXName5925NVC1+326VVfYH9vSrA0N13teGEo8z5x7gbRnGjCDiQ==
   dependencies:
-    "@vue/devtools-api" "^6.5.1"
+    "@vue/devtools-api" "^6.6.4"
 
 vue-upload-component@^3.1.8:
-  version "3.1.15"
-  resolved "https://registry.yarnpkg.com/vue-upload-component/-/vue-upload-component-3.1.15.tgz#9bc5f2f11846f7f1d2852b3ad861b4e77f01d5ef"
-  integrity sha512-3jHUS2ZqxlV/ez+gxfWJ9CJUPknXErCyJdPlwbiRJPHvpIoj0bo+1SlZ4QJBdt6vHTTUx8He1pUoGw0uxsCvKQ==
+  version "3.1.17"
+  resolved "https://registry.yarnpkg.com/vue-upload-component/-/vue-upload-component-3.1.17.tgz#489f504eb65b518905815f7dbd64b262d7cd624b"
+  integrity sha512-1orTC5apoFzBz4ku2HAydpviaAOck+ABc83rGypIK/Bgl+TqhtoWsQOhXqbb7vDv7pKlvRVWwml9PM224HyhkA==
 
 vue@^3.3.6:
   version "3.4.31"
