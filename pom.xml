@@ -60,27 +60,27 @@
 
     <!-- Logging -->
     <ver.slf4j>2.0.17</ver.slf4j>
-    <ver.log4j2>2.25.0</ver.log4j2>
+    <ver.log4j2>2.25.1</ver.log4j2>
 
     <!-- JSON-LD 1.1 -->
     <ver.titanium-json-ld>1.6.0</ver.titanium-json-ld>
     <ver.jakarta.json>2.0.1</ver.jakarta.json>
 
     <!-- These two must be in-step -->
-    <ver.jetty>12.0.22</ver.jetty>
+    <ver.jetty>12.0.23</ver.jetty>
     <ver.jakarta-servlet>6.1.0</ver.jakarta-servlet>
 
     <!--
          These two go together
          See jena-fuseki-webapp and https://shiro.apache.org/jakarta-ee.html
     -->
-    <ver.shiro>2.0.4</ver.shiro>
+    <ver.shiro>2.0.5</ver.shiro>
     <ver.omnifaces>4.6.5</ver.omnifaces>
 
     <ver.protobuf>4.31.1</ver.protobuf>
     <ver.libthrift>0.22.0</ver.libthrift>
 
-    <ver.caffeine>3.2.1</ver.caffeine>
+    <ver.caffeine>3.2.2</ver.caffeine>
     <!-- Most of Jena uses other libraries for equivalent functionality. -->
     <ver.guava>33.4.8-jre</ver.guava>
 
@@ -98,13 +98,13 @@
     <ver.commons-fileupload>2.0.0-M4</ver.commons-fileupload>
 
     <ver.dexxcollection>0.7</ver.dexxcollection>
-    <ver.micrometer>1.15.1</ver.micrometer>
+    <ver.micrometer>1.15.2</ver.micrometer>
     <ver.roaringbitmap>1.3.0</ver.roaringbitmap>
     <ver.opencsv>5.11.2</ver.opencsv>
 
     <!-- Testing -->
     <ver.junit4>4.13.2</ver.junit4>
-    <ver.junit5>5.13.2</ver.junit5>
+    <ver.junit5>5.13.3</ver.junit5>
     <ver.junit5-platform>1.10.2</ver.junit5-platform>
  
     <ver.mockito>5.18.0</ver.mockito>
@@ -857,7 +857,7 @@
       <dependency>
         <groupId>io.github.bonigarcia</groupId>
         <artifactId>webdrivermanager</artifactId>
-        <version>6.1.0</version>
+        <version>6.1.1</version>
         <scope>test</scope>
       </dependency>
       <!-- END jena-fuseki-mod-geosparql -->
