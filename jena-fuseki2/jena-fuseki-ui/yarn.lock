@@ -1337,11 +1337,11 @@ __metadata:
   linkType: hard
 
 "@codemirror/legacy-modes@npm:^6.5.2":
-  version: 6.5.3
-  resolution: "@codemirror/legacy-modes@npm:6.5.3"
+  version: 6.5.4
+  resolution: "@codemirror/legacy-modes@npm:6.5.4"
   dependencies:
     "@codemirror/language": "npm:^6.0.0"
-  checksum: 10c0/ec962723422039a3e5ecbcfc1b661201e6e5b10918e821b90c12fac385ead8f61925e464adab6b8d6465fc6dbefc0a64bd3130d0dae6ba7d053ad785dd08eebe
+  checksum: 10c0/b6fb2304e6c4bf44205820f17d44bb10a3fe44bd085efdb67cc4a810252b59d3e6ee5b23fb73dd0b0c3fa41054d09d6840bb5e66889762c5974edf713ddacc46
   languageName: node
   linkType: hard
 
